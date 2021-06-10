@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0 50px ;
+    text-align: center;
+}
+.title{
+    font-size: 3rem;
+}
+.description{
+    font-size: 1.2rem;
+}
+.intro{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.gif{
+    width: 400px;
+}
