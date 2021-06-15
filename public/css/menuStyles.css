@@ -1,16 +1,31 @@
 :root{
     --azul-marino:#0f1624;
+    --blanco:#f3f3f3;
+    --azul-opaco:#40798C;
+    --azul:#1982c4;
 }
 .menu{
-
+    font-size: 1.3rem;
 }
 
 .menu__titulo{
-
+    font-weight: bold;
 }
 .menu__contenedor{
-    
+    display: inline-block;
+    text-decoration: none;
 }
-.menu__item{
+.menu__titulo, .menu__item{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 20px;
+}
+.menu__titulo a, .menu__item a{
+    text-decoration: none;
+    color: var(--blanco);
+    transition: font-size 0.5s ease;
+}
+.menu__titulo a:hover, .menu__item a:hover{
 
+    font-size: 1.4rem;
 }
