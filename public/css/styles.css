@@ -2,12 +2,22 @@
     padding: 0;
     margin: 0;
 }
+:root{
+    --azul-marino:#0f1624;
+    --blanco:#f3f3f3;
+    --azul-opaco:#40798C;
+    --azul:#1982c4;
+}
 body{
     margin: 0 50px ;
     text-align: center;
+    background-color: #0f1624;
+    color: var(--azul-opaco);
 }
+
 .title{
     font-size: 3rem;
+    color: var(--blanco);
 }
 .description{
     font-size: 1.2rem;
@@ -18,4 +28,22 @@ body{
 }
 .gif{
     width: 400px;
+}
+
+/*---------*/
+.donutSpinner {
+    display: inline-block;
+    border: 6px solid var(--blanco);
+    border-left-color: var(--azul);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: donut-spin 1.2s linear infinite;
+    margin: 20px;
+}
+
+@keyframes donut-spin {
+    to {
+        transform: rotate(1turn);
+    }
 }
