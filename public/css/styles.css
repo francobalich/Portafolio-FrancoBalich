@@ -1,12 +1,15 @@
-*{
-    padding: 0;
-    margin: 0;
-}
 :root{
     --azul-marino:#0f1624;
     --blanco:#f3f3f3;
     --azul-opaco:#40798C;
     --azul:#1982c4;
+    --fuentes-titulo:'Merriweather',Arial, Helvetica, sans-serif;
+    --fuentes-cuerpo:'Open Sans',Arial, Helvetica, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--fuentes-cuerpo);
 }
 body{
     margin: 0 50px ;
@@ -18,6 +21,7 @@ body{
 .title{
     font-size: 3rem;
     color: var(--blanco);
+    font-family: var(--fuentes-titulo);
 }
 .description{
     font-size: 1.2rem;
