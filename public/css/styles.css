@@ -22,7 +22,7 @@ main,footer{
     margin: 0 auto;
 }
 main{
-    height: 70vh;
+    height: 170vh;
     width: 100%;
     flex-grow: initial;
 }
