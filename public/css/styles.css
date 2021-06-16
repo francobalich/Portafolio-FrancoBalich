@@ -12,7 +12,6 @@
     font-family: var(--fuentes-cuerpo);
 }
 body{
-    
     color: var(--azul-opaco);
     display: flex;
     flex-direction: column;
@@ -22,7 +21,7 @@ main,footer{
     margin: 0 auto;
 }
 main{
-    height: 170vh;
+    height: 90vh;
     width: 100%;
     flex-grow: initial;
 }
