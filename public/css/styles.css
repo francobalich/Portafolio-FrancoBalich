@@ -27,11 +27,11 @@ header{
 }
 main{
     height: 70vh;
-    width: 80%;
+    width: 85%;
     flex-grow: initial;
 }
 footer{
-    width: 80%;
+    width: 85%;
     margin-top: 10vh;
 }
 /*Cuando se borre el cuerpo actual, hay que borrarlo*/
