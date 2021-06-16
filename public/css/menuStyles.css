@@ -41,7 +41,6 @@ header{
     margin: 4vh 7vh;
     transition: opacity .5s ease;
 }
-
 .menu__titulo{
     font-weight: bold;
     font-size: 1.3rem;
