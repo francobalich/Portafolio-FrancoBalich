@@ -12,22 +12,43 @@
     font-family: var(--fuentes-cuerpo);
 }
 body{
-    margin: 0 50px ;
-    text-align: center;
     background-color: #0f1624;
     color: var(--azul-opaco);
+    display: flex;
+    flex-direction: column;
 }
-
+header,main,footer{
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+}
+main{
+    height: 80vh;
+    flex-grow: initial;
+}
+footer{
+    margin-top: 10vh;
+}
+/*Cuando se borre el cuerpo actual, hay que borrarlo*/
+.page__container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 .title{
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: var(--blanco);
     font-family: var(--fuentes-titulo);
+    
 }
 .description{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    display: inline-block;
 }
 .intro{
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 .gif{
@@ -43,7 +64,7 @@ body{
     width: 50px;
     height: 50px;
     animation: donut-spin 1.2s linear infinite;
-    margin: 20px;
+    margin: 30px;
 }
 
 @keyframes donut-spin {

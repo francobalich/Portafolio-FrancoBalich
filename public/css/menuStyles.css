@@ -6,12 +6,14 @@
     --fuentes-titulo:'Merriweather',Arial, Helvetica, sans-serif;
     --fuentes-cuerpo:'Open Sans',Arial, Helvetica, sans-serif;
 }
+
 .menu{
     font-size: 1.2rem;
 }
 .menu__titulo{
     font-weight: bold;
 }
+
 .menu__contenedor{
     display: inline-block;
     text-decoration: none;
