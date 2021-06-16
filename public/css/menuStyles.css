@@ -5,8 +5,14 @@
     --azul:#1982c4;
     --fuentes-titulo:'Merriweather',Arial, Helvetica, sans-serif;
     --fuentes-cuerpo:'Open Sans',Arial, Helvetica, sans-serif;
+    --negro:black;
 }
-
+header{
+    width: 100%;
+    background-color: #0f1624;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--azul);
+}
 .menu{
     font-size: 1.2rem;
     margin:auto;
@@ -48,4 +54,42 @@
     list-style: none;
     display: inline-block;
     margin-left: 1vw;
+}
+@media screen and (max-width:1080px) {
+    .menu{
+        width: 95%;
+        font-size: 1.1rem;
+    }
+    .menu__titulo, .menu__item{
+        padding-left: 2vh;
+    }
+}
+@media screen and (max-width:800px) {
+    header{
+        background-color: black;
+        height: 100vh;
+    }
+    .menu{
+        width: 77%;
+        font-size: 2.5rem;
+        flex-direction: column;
+        align-items: normal;
+    }
+    .menu__titulo{
+        text-align: start;
+        padding: 7vh 0vh 10vh 2vh;
+    }
+    .menu__contenedor{
+        flex-direction: column;
+    }
+    .menu__titulo, .menu__item{
+        width: 100%;
+        margin: 8px 0px;
+    } 
+    .menu__titulo a:hover, .menu__item a:hover{
+        text-decoration: none;
+    }
+    .menu__iconContainer{
+        margin-left: auto;
+    }
 }

@@ -12,31 +12,29 @@
     font-family: var(--fuentes-cuerpo);
 }
 body{
-    background-color: #0f1624;
+    
     color: var(--azul-opaco);
     display: flex;
     flex-direction: column;
 }
-header,main,footer{
-    display: inline-block;
-    width: 100%;
+main,footer{
+    background-color: #0f1624;
     margin: 0 auto;
-}
-header{
-    border-bottom: 1px solid var(--azul);
 }
 main{
     height: 70vh;
-    width: 85%;
+    width: 100%;
     flex-grow: initial;
 }
 footer{
-    width: 85%;
-    margin-top: 10vh;
+    width: 100%;
+    padding: 50px;
 }
 /*Cuando se borre el cuerpo actual, hay que borrarlo*/
 .page__container{
+    margin:auto;
     height: 100%;
+    width: 85%;
     display: flex;
     flex-direction: column;
     justify-content: center;
