@@ -19,14 +19,19 @@ body{
 }
 header,main,footer{
     display: inline-block;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
+header{
+    border-bottom: 1px solid var(--azul);
+}
 main{
-    height: 80vh;
+    height: 70vh;
+    width: 80%;
     flex-grow: initial;
 }
 footer{
+    width: 80%;
     margin-top: 10vh;
 }
 /*Cuando se borre el cuerpo actual, hay que borrarlo*/
