@@ -22,7 +22,8 @@ header{
     padding: 3vh 0;
     width: 100%;
     align-items: center;
-    z-index: 1000;
+    z-index: 1500;
+    transition: top 1s ease;
 }
 .menu__iconMenu{
     display: none;
@@ -37,7 +38,9 @@ header{
     text-decoration: none;
     padding: 1vh;
     margin: 4vh 7vh;
+    transition: opacity .5s ease;
 }
+
 .menu__titulo{
     font-weight: bold;
     font-size: 1.3rem;
@@ -82,10 +85,6 @@ header{
     }
 }
 @media screen and (max-width:800px) {
-    header{
-        
-        
-    }
     .menu{
         width: 100%;
         background-color: black;
@@ -94,7 +93,8 @@ header{
         flex-direction: column;
         align-items: normal;
         padding: 100px;
-        display: none;
+        position: absolute;
+        top: -100vh;
     }
     .menu__titulo{
         text-align: start;
@@ -126,10 +126,10 @@ header{
     }
     .menu__iconMenu {
         display: flex;
-        
     }
     .menu__iconMenu a{
         margin-left: auto;
         display: inline-block;
+        z-index: 3000;
     }
 }
