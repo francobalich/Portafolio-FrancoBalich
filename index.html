@@ -1,39 +1,79 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="franco balich, franco, balich, tecnologia, robotica, impresion 3d, electronica, programacion, sistemas, desarrollo, web, emprender, innovativalab, francobalich, desarrollo web">
-    <meta name="description" content="Esta es mi página web que cree como portafolio para mostrar mis proyectos, mis habilidades de programación y de desarrollo de proyectos, proveer información sobre mi para que los clientes y seguir desarrollando mis habilidades de desarrollo web.">
+    <meta name="keywords"
+        content="franco balich, franco, balich, tecnologia, robotica, impresion 3d, electronica, programacion, sistemas, desarrollo, web, emprender, innovativalab, francobalich, desarrollo web">
+    <meta name="description"
+        content="Esta es mi página web que cree como portafolio para mostrar mis proyectos, mis habilidades de programación y de desarrollo de proyectos, proveer información sobre mi para que los clientes y seguir desarrollando mis habilidades de desarrollo web.">
     <meta name="author" content="Franco Adrian Balich">
     <meta name="robots" content="index">
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="public/img/user.png" type="image/x-icon">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,700;1,800&display=swap" rel="stylesheet">     <link rel="shortcut icon" href="public/img/user.png" type="image/x-icon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,700;1,800&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
     <title>Inicio</title>
     <link rel="stylesheet" href="public/css/normalize.css">
     <link rel="stylesheet" href="public/css/styles.css">
 </head>
+
 <body>
-   <header>
-        <nav>
-            <ul>
-                <li>Sobre mi</li>
-                <li>Habilidades</li>
-                <li>Portafolio</li>
-                <li>Contacto</li>
+    <header>
+        <nav class="menu">
+            <ul class="menu__container">
+                <li class="menu__item"><a href="#">Sobre mi</a></li>
+                <li class="menu__item"><a href="#">Habilidades</a></li>
+                <li class="menu__item"><a href="#">Portafolio</a></li>
+                <li class="menu__item itemButton"><a href="#">Contacto</a></li>
             </ul>
         </nav>
-   </header>
-   <main>
-        <img src="./public/img/imgFrancoBalich.png" alt="">
-   </main>
-   <footer>
+    </header>
+    <main>
+        <div class="main__containerPage">
+            <div class="main__containerLogoFranco">
+                <img class="main__logoFranco" src="/public/img/logoNegro.png" alt="">
+            </div>
+            <div class="main__textos">
 
-   </footer>
-   <script src="/public/js/index.js"></script>
+                <h2 class="main__textosSaludo">Hola, soy</h2>
+                <h1 class="main__textosNombre">Franco Balich</h1>
+
+                <div class="main__textosTrabajo">
+                    <input type="button" value="Desarrollador Frontend">
+                    <p>/</p>
+                    <input type="button" value="Emprendedor">
+                    <p>/</p>
+                    <input type="button" value="Creador de contenido en redes">
+                </div>
+
+                <div class="main__textosButtons">
+                    <div class="main__containerButtons">
+                        <img class="main__containerButtonsImg" src="/public/img/linkedinLogo.png" alt="">
+                        <img class="main__containerButtonsImg" src="/public/img/githubLogo.png" alt="">
+                        <img class="main__containerButtonsImg" src="/public/img/mailLogo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="triangulo"></div>
+        <div class="main__fondo">
+            <img class="img_francoBalich" src="./public/img/imgFrancoBalich.png" alt="">
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="/public/js/index.js"></script>
 </body>
+
 </html>
