@@ -29,6 +29,8 @@ nav{
 /*#region Main*/
 body{
     background-color: var(--gris);
+    background-position: center center;
+    background: radial-gradient(ellipse, var(--blanco), var(--grisOscuro));
 }
 .menu__container{
     display: flex;
@@ -240,6 +242,7 @@ main{
 .titulos{
     display: flex;
     flex-direction: column;
+    margin-bottom: 90px;
 }
 .titulos__container{
     display: flex;
@@ -271,6 +274,61 @@ main{
     letter-spacing: 1px;
 }
 /*#endregion Titulos*/
+
+/*#region Habilidades*/
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+.spaceBottom{
+    margin-bottom: 90px;
+}
+.habilidades__section{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+.habilidades__section > p {
+    font-family: "Montserrat";
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 80px;
+    display: inline-block; 
+    width: 45%;
+    margin: auto;
+}
+
+.habilidades__container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.habilidades__item{
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.habilidades__item img{
+    max-width: 100px;
+    height: 100px;
+}
+.habilidades__item p{
+    padding-top: 30px;
+    font-size: 24px;
+    font-family: "Montserrat";
+    letter-spacing: 5px;
+}
+/*#endregion Habilidades*/
 
 /*#region Footer*/
 footer{
