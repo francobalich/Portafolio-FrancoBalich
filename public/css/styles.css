@@ -236,8 +236,43 @@ main{
 
 /*#endregion SobreMi*/
 
-/*#region Footer*/
+/*#region Titulos*/
+.titulos{
+    display: flex;
+    flex-direction: column;
+}
+.titulos__container{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    margin-bottom: 90px;
+}
+.titulos__card{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    align-items: center;
+    width: 45%;
+}
+.titulos__card h7{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 138%;
+    display: inline-block;
+    padding: 15px 0;
+    letter-spacing: 5px;
+}
+.titulos__card p{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 138%;
+    letter-spacing: 1px;
+}
+/*#endregion Titulos*/
 
+/*#region Footer*/
 footer{
     background-color: var(--negro);
     color: var(--blanco);
