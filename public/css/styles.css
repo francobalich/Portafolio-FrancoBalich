@@ -123,8 +123,6 @@ main{
 .triangulo{
     width: 5%;
     background-color: var(--negro);
-    -webkit-shape-outside: polygon(100% 0, 100% 100%, 0 100%);
-    shape-outside: polygon(100% 0, 100% 100%, 0 100%);
     float: right;
     -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);
     clip-path: polygon(100% 0, 100% 100%, 0 100%);
@@ -257,7 +255,7 @@ main{
     align-items: center;
     width: 45%;
 }
-.titulos__card h7{
+.titulos__card span{
     font-family: "Montserrat";
     font-weight: bold;
     font-size: 22px;
