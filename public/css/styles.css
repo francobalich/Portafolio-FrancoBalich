@@ -1,15 +1,18 @@
 *{
-    font-family: Montserrat;
+    font-family: "Montserrat";
     padding: 0;
     margin: 0;
     font-size: 15px;
+    scroll-behavior: smooth;
 }
 :root{
     --blanco:#FFFFFF;
+    --negroClaro:#1D1D1D;
     --negro:#000000;
     --gris:#D8D8D8;
     --grisOscuro:#909090;
 }
+/*#region Menu*/
 header{
     display: flex;
     justify-content: center;
@@ -20,6 +23,12 @@ nav{
     margin-top: 64px;
     width: 70%;
     display: flex;
+}
+/*#endregion Menu*/
+
+/*#region Main*/
+body{
+    background-color: var(--gris);
 }
 .menu__container{
     display: flex;
@@ -58,6 +67,7 @@ main{
     display: flex;
     flex-direction: column;
 }
+
 .main__containerLogoFranco{
     width: 70%;
     display: flex;
@@ -77,12 +87,12 @@ main{
 }
 .main__textosSaludo{
     font-size: 40px;
-    font-family: Raleway;
+    font-family: "Raleway";
     display: inline-block;
 }
 .main__textosNombre{
     font-size: 80px;
-    font-family: Raleway;    
+    font-family: "Raleway";    
     margin-bottom: 0px;
     display: inline-block;
     text-align: center;
@@ -141,3 +151,125 @@ main{
     font-weight: 700;
     display: inline-block;
 }
+/*#endregion Main*/
+
+/*#region Descripcion*/
+.descripcion__container{
+    background-color: var(--negroClaro);
+    color: var(--blanco);
+    padding: 50px 100px;
+}
+.descripcion__containerText{
+    max-width: 1920px;
+}
+.descripcion__title{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.descripcion__text{
+    font-family: "Open Sans";
+    font-size: 15px;
+    padding: 30px 0;
+    line-height: 138%;
+    width: 80%;
+}
+.descripcion__btn{
+    /*140*32*/
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: var(--blanco);
+    background-color: transparent;
+    padding: 8px 30px;
+    border: none;
+    font-weight:700;
+    border-left: 2px solid var(--blanco);
+    border-right:2px solid var(--blanco);
+}
+/*#endregion Descripcion*/
+
+/*#region SobreMi*/
+.data{
+    padding: 142px 0;
+    display: flex;
+    justify-content: center;
+}
+.about{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.mainTitle{
+    margin: 0 auto;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px 90px;
+    outline: 7px solid var(--negro);
+    letter-spacing:10px;
+
+}
+.about__text{
+    text-align: center;
+    width: 70%;
+    display: inline-block;
+    margin: 60px auto;
+    line-height: 150%;
+}
+.about_btn{
+    margin: 0 auto;
+    padding: 8px 30px;
+    color: var(--negro);
+    border: none;
+    border-left: 2px solid var(--negro);
+    border-right: 2px solid var(--negro);
+    background-color: transparent;
+    font-weight: bold;
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+.separador{
+    width: 170px;
+    margin: 85px auto 0 auto;
+}
+
+/*#endregion SobreMi*/
+
+/*#region Footer*/
+
+footer{
+    background-color: var(--negro);
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    padding: 65px;
+}
+.footer__enlace{
+    text-decoration: none;
+    color: var(--blanco);
+}
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__arrow{
+    margin: 7px;
+}
+.footer__text{
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-weight:700;
+}
+.footer_imgSocialNetwork{
+    width: 30px;
+}
+.footer__imgContainer{
+    margin: auto;
+    width:205px;
+    margin: 45px auto;
+    display: flex;
+    justify-content: space-between;
+}
+/*#endregion Footer*/
