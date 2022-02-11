@@ -122,7 +122,6 @@ main {
   margin-right: 30px;
 }
 .triangulo {
-
   width: 5%;
   background-color: var(--negro);
   float: right;
@@ -344,64 +343,63 @@ main {
   letter-spacing: 10px;
   color: var(--blanco);
 }
-.banner{
-    display: flex;
-    flex-direction: column;
+.banner {
+  display: flex;
+  flex-direction: column;
 }
-.textOnImg{
-    position: relative;
-    bottom: 200px;
-
+.textOnImg {
+  position: relative;
+  bottom: 200px;
 }
-.proyectos__container{
-    display: flex;
-    flex-direction: column;
+.proyectos__container {
+  display: flex;
+  flex-direction: column;
 }
-.proyectos_header{
-    position: relative;
-    bottom: 50px;
-    font-size: 0px;
-    margin: auto;
+.proyectos_header {
+  position: relative;
+  bottom: 50px;
+  font-size: 0px;
+  margin: auto;
 }
-.proyectos_btn{
-    border: none;
-    background-color: transparent;
-    color: var(--grisOscuro);
-    font-family: "Montserrat";
-    font-weight: 400;
-    padding: 15px;
-    width: 200px;
-    border-bottom: 2px solid var(--grisOscuro);
-    margin: 0;
-    font-size: 14px;
+.proyectos_btn {
+  border: none;
+  background-color: transparent;
+  color: var(--grisOscuro);
+  font-family: "Montserrat";
+  font-weight: 400;
+  padding: 15px;
+  width: 200px;
+  border-bottom: 2px solid var(--grisOscuro);
+  margin: 0;
+  font-size: 14px;
 }
-.activeBtnProject{
-    color: var(--blanco);
-    border-bottom: 2px solid var(--blanco);
+.activeBtnProject {
+  color: var(--blanco);
+  border-bottom: 2px solid var(--blanco);
 }
-.proyectos__main{
-    background-color: #909090;
-    display: flex;
-    flex-wrap: wrap;
+.proyectos__main {
+  background-color: #909090;
+  display: flex;
+  flex-wrap: wrap;
 }
-.proyectos__main a{
-    max-width: 33vw;
-    font-size: 0px;
+.proyectos__main a {
+  max-width: 33vw;
+  font-size: 0px;
 }
-.proyectos__main img{
-    width:100%;
+.proyectos__main img {
+  width: 100%;
 }
-.proyectos__footer{
-    display: flex;
+.proyectos__footer {
+  display: flex;
 }
-.proyectos__footer p{
-    color: var(--blanco);
-    font-family: "Montserrat";
-    font-weight: bold;
-    padding: 15px;
-    font-size: 17px;
-    display: inline-block;
-    margin: auto ;
+.proyectos__footer p {
+  color: var(--blanco);
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding: 15px;
+  font-size: 17px;
+  display: inline-block;
+  margin: auto;
 }
 /*#endregion Proyectos*/
 
@@ -442,3 +440,99 @@ footer {
 }
 
 /*#endregion Footer*/
+
+@media screen and (max-width: 1300px) {
+  .main__textosNombre {
+    font-size: 50px;
+  }
+  .main__textosTrabajo input,
+  .main__textosTrabajo p {
+    font-size: 20px;
+  }
+  .textOnImg {
+    bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    display: none;
+  }
+  .main__containerPage {
+    margin-top: 50px;
+  }
+  .main__fondo,
+  .triangulo {
+    display: none;
+  }
+  .main__containerPage {
+    width: 100%;
+  }
+  .main__textosButtons {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .data {
+    padding: 40px;
+  }
+  .about,
+  .titulos__container {
+    width: 90%;
+    margin-bottom: 0px;
+  }
+  .banner img{
+    height: 200px;
+  }
+  .textOnImg {
+    bottom: 143px;
+  }
+  .separador {
+    margin: 45px auto 0 auto;
+  }
+  .proyectos__main a {
+    max-width: 50vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .descripcion__text {
+    width: 100%;
+  }
+  .descripcion__container {
+    padding: 50px;
+  }
+  .titulos__container {
+    flex-direction: column;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .titulos__card{
+      width:75%;
+  }
+  .habilidades__item {
+    width: 200px;
+  }
+  .habilidades__container,
+  .habilidades__section > p {
+    width: 80%;
+  }
+  
+}
+@media screen and (max-width: 550px) {
+    .about,.titulos__container{
+        width: 100%;
+    }
+    .mainTitle, .mainTitleWhite {
+        padding: 20px 35px;
+        font-size: 25px;
+    }
+    .proyectos__main a{
+        max-width: 100vw;
+    }
+    .proyectos_btn{
+        width: 33vw;
+    }
+    .about__text{
+        width: 90%;
+    }
+}
