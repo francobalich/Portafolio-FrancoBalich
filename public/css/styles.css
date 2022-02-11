@@ -517,6 +517,13 @@ footer {
     width: 80%;
   }
   
+  .proyectos_header{
+      margin: 0;
+  }
+  .proyectos_btn{
+      width: 33%;
+  }
+  
 }
 @media screen and (max-width: 550px) {
     .about,.titulos__container{
@@ -526,13 +533,10 @@ footer {
         padding: 20px 35px;
         font-size: 25px;
     }
-    .proyectos__main a{
-        max-width: 100vw;
-    }
-    .proyectos_btn{
-        width: 33vw;
-    }
     .about__text{
         width: 90%;
+    }
+    .proyectos__main a{
+        max-width: 100vw;
     }
 }
