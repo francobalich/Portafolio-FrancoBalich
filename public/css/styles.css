@@ -24,6 +24,9 @@ header {
   -webkit-box-shadow: -7px 6px 7px 1px rgba(255,255,255,0.1); 
   box-shadow: -7px 6px 7px 1px rgba(255,255,255,0.1);
 }
+.btnCerrarMenu{
+  display: none;
+}
 nav {
   padding: 15px 0;
   width: 70%;
@@ -477,6 +480,9 @@ footer {
     margin-left: auto;
     width: 80px;
     padding: 20px;
+  }
+  .btnCerrarMenu{
+    display: block;
   }
   header {
     height: 100%;
