@@ -354,6 +354,7 @@ main {
 .proyectos__container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .proyectos_header {
   position: relative;
@@ -378,12 +379,11 @@ main {
   border-bottom: 2px solid var(--blanco);
 }
 .proyectos__main {
-  background-color: #909090;
   display: flex;
   flex-wrap: wrap;
 }
 .proyectos__main a {
-  max-width: 33vw;
+  width: 33.3%;
   font-size: 0px;
 }
 .proyectos__main img {
@@ -490,7 +490,7 @@ footer {
     margin: 45px auto 0 auto;
   }
   .proyectos__main a {
-    max-width: 50vw;
+    width: 50%;
   }
 }
 
@@ -537,6 +537,6 @@ footer {
         width: 90%;
     }
     .proyectos__main a{
-        max-width: 100vw;
+        width: 100%;
     }
 }
