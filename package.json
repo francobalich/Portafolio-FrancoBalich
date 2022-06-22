@@ -1,0 +1,26 @@
+{
+  "name": "portafolio-francobalich",
+  "version": "1.0.0",
+  "description": "Esta es la primera versión de mi pagina web en la cual explico las cosas que se hacer de desarrollo Frontend, mis conocimientos sobre emprendimiento y mis proyectos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francobalich/Portafolio-FrancoBalich.git"
+  },
+  "author": "Franco Adrian Balich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francobalich/Portafolio-FrancoBalich/issues"
+  },
+  "homepage": "https://github.com/francobalich/Portafolio-FrancoBalich#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
