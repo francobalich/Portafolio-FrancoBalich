@@ -13,8 +13,8 @@ const iniciarServer = () => {
   app.get("/", function (req, res) {
     res.render("pages/index.ejs");
   });
-  app.get("/links", function (req, res) {
-    res.render("pages/links.ejs");
+  app.get("/redes", function (req, res) {
+    res.render("pages/redes.ejs");
   });
   app.get("/contacto", function (req, res) {
     res.render("pages/contacto.ejs");
