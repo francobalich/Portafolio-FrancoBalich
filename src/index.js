@@ -1,4 +1,6 @@
 const express = require("express");
+const mail = require("./singup-mail");
+//import * as mail from "./singup-mail";
 const path = require("path");
 const port = process.env.PORT || 5500;
 const app = express();
@@ -22,5 +24,9 @@ const iniciarServer = () => {
   server.listen(port, () => {
     console.log(`El server esta corriendo el puerto:${port}`);
   });
+  app.post('/mail', function(req, res) {
+    var titulo = req.body.txtNombre;
+    console.log(titulo);
+}); 
 };
 iniciarServer();
