@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/mail.css">
     <link rel="stylesheet" href="../css/normalize.css">
     <%- include('../partials/head.ejs'); %>
 </head>
-<body>
-    <%- include('../partials/menu.ejs'); %>
-    <div class="container" style="height: 75vh;">
 
-    </div>
-    <%- include('../partials/footer.ejs'); %>
+<body>
+        <%- include('../partials/menu.ejs'); %>
+        <div class="mailContainer">
+            <div class="mailCard">
+                <h3>Contacto</h3>
+                <form action="mail" method="post" class="mailForm">
+                    <input class="formElement formTxt" name="txtNombre" id="txtNombre" type="text" placeholder="Nombre">
+                    <input class="formElement formTxt" name="txtEmail id="txtEmail" type="email" placeholder="Email">
+                    <textarea class="formElement formTextarea" name="txtMensaje" id="txtMensaje" placeholder="Mensaje">
+                </textarea>
+                <input class="formSend" type="submit" value="Enviar" >
+                </form>
+            </div>
+        </div>
+        <%- include('../partials/footer.ejs'); %>
 </body>
+
 </html>
