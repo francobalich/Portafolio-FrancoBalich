@@ -493,15 +493,16 @@ footer {
     margin: 0;
     width: 100%;
     margin-top: 50px;
+   align-items:  center;
   }
   .menu__container{
     flex-direction: column;
   }
   .menu__item{
-    margin:25px 0;
+    margin:22px 0;
     display: inline-block;
-    width: 100%;
-    padding: 40px 0;
+    width: 70%;
+    padding: 20px 0;
     border: 1px solid var(--grisOscuro);
   }
   .menu__item a{
