@@ -1,9 +1,9 @@
 * {
-  font-family: "Montserrat";
   padding: 0;
   margin: 0;
-  font-size: 15px;
+  font-size: 17px;
   scroll-behavior: smooth;
+  font-family: "Open Sans";
 }
 :root {
   --blanco: #ffffff;
@@ -175,21 +175,17 @@ main {
   max-width: 1920px;
 }
 .descripcion__title {
-  font-family: "Montserrat";
   font-weight: bold;
   font-size: 30px;
   letter-spacing: 5px;
 }
 .descripcion__text {
-  font-family: "Open Sans";
-  font-size: 15px;
   padding: 30px 0;
   line-height: 138%;
   width: 80%;
 }
 .descripcion__btn {
   /*140*32*/
-  font-family: "Montserrat";
   font-size: 15px;
   color: var(--blanco);
   background-color: transparent;
@@ -214,7 +210,6 @@ main {
 }
 .mainTitle {
   margin: 0 auto;
-  font-family: "Montserrat";
   font-size: 30px;
   font-weight: bold;
   padding: 30px 90px;
@@ -267,7 +262,6 @@ main {
   width: 45%;
 }
 .titulos__card span {
-  font-family: "Montserrat";
   font-weight: bold;
   font-size: 22px;
   line-height: 138%;
@@ -278,9 +272,10 @@ main {
 .titulos__card p {
   font-family: "Open Sans";
   font-weight: 300;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 138%;
   letter-spacing: 1px;
+  text-align: center;
 }
 /*#endregion Titulos*/
 
@@ -302,7 +297,6 @@ main {
 }
 
 .habilidades__section > p {
-  font-family: "Montserrat";
   letter-spacing: 5px;
   font-size: 30px;
   font-weight: bold;
@@ -334,7 +328,6 @@ main {
 .habilidades__item p {
   padding-top: 30px;
   font-size: 24px;
-  font-family: "Montserrat";
   letter-spacing: 5px;
 }
 /*#endregion Habilidades*/
@@ -346,7 +339,6 @@ main {
 }
 .mainTitleWhite {
   margin: 0 auto;
-  font-family: "Montserrat";
   font-size: 30px;
   font-weight: bold;
   padding: 30px 90px;
@@ -377,7 +369,6 @@ main {
   border: none;
   background-color: transparent;
   color: var(--grisOscuro);
-  font-family: "Montserrat";
   font-weight: 400;
   padding: 15px;
   width: 200px;
@@ -405,7 +396,6 @@ main {
 }
 .proyectos__footer p {
   color: var(--blanco);
-  font-family: "Montserrat";
   font-weight: bold;
   padding: 15px;
   font-size: 17px;
