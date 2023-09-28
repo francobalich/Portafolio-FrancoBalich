@@ -539,6 +539,9 @@ footer {
   header {
      width: 75%;
    }
+   .main__logoFranco {
+    padding-top: 40px;
+  }
   .descripcion__text {
     width: 100%;
   }
@@ -553,8 +556,11 @@ footer {
   .titulos__card{
       width:75%;
   }
+  .habilidades__container{
+    gap: 20px;
+  }
   .habilidades__item {
-    width: 200px;
+    width: 150px;
   }
   .habilidades__container,
   .habilidades__section > p {
