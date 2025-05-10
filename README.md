@@ -1,22 +1,25 @@
-# Portafolio Personal - Franco Balich
+# Franco Balich | Director del Laboratorio Creativo 3D
 
-## 📝 Descripción
-Este es mi portafolio personal donde muestro mis habilidades en desarrollo Frontend, conocimientos en emprendimiento y proyectos realizados. El sitio está construido utilizando Node.js y Express, con EJS como motor de plantillas.
+## 🎯 Descripción
+Portafolio profesional de Franco Balich, Director del Laboratorio Creativo 3D, Doctorando en Informática, Full Stack Developer y Data Engineer. Especialista en desarrollo de soluciones IoT, análisis de datos y creación de contenido tecnológico.
 
-## 🚀 Características
-- Diseño responsive y moderno
-- Secciones para mostrar proyectos
-- Formulario de contacto con envío de correos
-- Integración con servicios de correo electrónico
-- Interfaz intuitiva y fácil de navegar
+## 🚀 Características Principales
+- Desarrollo Full Stack con Python
+- Implementación de soluciones IoT
+- Análisis de datos y Data Engineering
+- Dirección del Laboratorio Creativo 3D
+- Creación de contenido tecnológico
+- Proyectos de innovación e investigación
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías
+- Python
+- IoT (Internet de las Cosas)
+- Desarrollo Full Stack
+- Análisis de Datos
 - Node.js
 - Express.js
-- EJS (Embedded JavaScript)
+- EJS
 - Nodemailer
-- CSS
-- JavaScript
 
 ## 📦 Instalación
 
@@ -30,8 +33,8 @@ git clone https://github.com/francobalich/Portafolio-FrancoBalich.git
 npm install
 ```
 
-3. Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
-```
+3. Configura las variables de entorno:
+```env
 PORT=3000
 EMAIL_USER=tu_email@ejemplo.com
 EMAIL_PASS=tu_contraseña
@@ -46,14 +49,14 @@ npm run dev
 ```
 Portafolio-FrancoBalich/
 ├── src/
-│   ├── index.js
-│   └── singup-mail.js
+│   ├── index.js          # Servidor principal
+│   └── singup-mail.js    # Configuración de correo
 ├── views/
-│   ├── css/
-│   ├── js/
-│   ├── img/
-│   ├── pages/
-│   └── partials/
+│   ├── css/             # Estilos
+│   ├── js/              # Scripts
+│   ├── img/             # Imágenes
+│   ├── pages/           # Páginas principales
+│   └── partials/        # Componentes reutilizables
 ├── package.json
 └── README.md
 ```
@@ -61,15 +64,21 @@ Portafolio-FrancoBalich/
 ## 🚀 Scripts Disponibles
 - `npm start`: Inicia el servidor en modo producción
 - `npm run dev`: Inicia el servidor en modo desarrollo con nodemon
-- `npm test`: Ejecuta los tests (en desarrollo)
+- `npm test`: Ejecuta los tests
 
-## 📫 Contacto
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de:
+## 📫 Contacto y Redes Sociales
 - GitHub: [francobalich](https://github.com/francobalich)
-- Issues: [Reportar un problema](https://github.com/francobalich/Portafolio-FrancoBalich/issues)
+- LinkedIn: [franco-balich](https://www.linkedin.com/in/franco-balich/)
+- YouTube: [Franco Balich](https://www.youtube.com/c/FrancoBalich)
+- Twitch: [francolabs](https://www.twitch.tv/francolabs)
+- Instagram: [francobalich](https://www.instagram.com/francobalich/)
+- Twitter: [francobalich](https://twitter.com/francobalich)
 
 ## 📄 Licencia
-Este proyecto está bajo la Licencia ISC. Ver el archivo `LICENSE` para más detalles.
+Este proyecto está bajo la Licencia ISC.
+
+## 🔍 Palabras Clave
+Desarrollo Full Stack, Data Engineering, IoT, Python, Laboratorio Creativo 3D, Análisis de Datos, Desarrollo Web, Node.js, Express, EJS, Creador de Contenido Tecnológico, Investigación en Informática, Soluciones Tecnológicas, Innovación, Automatización, Sistemas Inteligentes
 
 ---
-Desarrollado con ❤️ por Franco Adrian Balich
+Desarrollado con ❤️ por Franco Balich

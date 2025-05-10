@@ -1,7 +1,7 @@
 {
   "name": "portafolio-francobalich",
   "version": "1.0.0",
-  "description": "Esta es la primera versión de mi pagina web en la cual explico las cosas que se hacer de desarrollo Frontend, mis conocimientos sobre emprendimiento y mis proyectos.",
+  "description": "Portafolio profesional de Franco Balich, Director del Laboratorio Creativo 3D, Doctorando en Informática, Full Stack Developer y Data Engineer. Especialista en desarrollo de soluciones IoT, análisis de datos y creación de contenido tecnológico.",
   "main": "index.js",
   "scripts": {
     "test": "dev",
@@ -12,12 +12,25 @@
     "type": "git",
     "url": "git+https://github.com/francobalich/Portafolio-FrancoBalich.git"
   },
-  "author": "Franco Adrian Balich",
+  "keywords": [
+    "Franco Balich",
+    "Laboratorio Creativo 3D",
+    "Full Stack Developer",
+    "Data Engineer",
+    "IoT",
+    "Python",
+    "Análisis de Datos",
+    "Desarrollo Web",
+    "Node.js",
+    "Express",
+    "EJS"
+  ],
+  "author": "Franco Balich",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/francobalich/Portafolio-FrancoBalich/issues"
   },
-  "homepage": "https://github.com/francobalich/Portafolio-FrancoBalich#readme",
+  "homepage": "https://francobalich.com",
   "dependencies": {
     "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
