@@ -12,13 +12,15 @@ Portafolio profesional de Franco Balich, Director del Laboratorio Creativo 3D, D
 - Proyectos de innovación e investigación
 
 ## 🛠️ Tecnologías
+- Next.js 14
+- React
+- TypeScript
 - Python
 - IoT (Internet de las Cosas)
 - Desarrollo Full Stack
 - Análisis de Datos
 - Node.js
 - Express.js
-- EJS
 - Nodemailer
 
 ## 📦 Instalación
@@ -40,7 +42,7 @@ EMAIL_USER=tu_email@ejemplo.com
 EMAIL_PASS=tu_contraseña
 ```
 
-4. Inicia el servidor:
+4. Inicia el servidor de desarrollo:
 ```bash
 npm run dev
 ```
@@ -48,23 +50,22 @@ npm run dev
 ## 🏗️ Estructura del Proyecto
 ```
 Portafolio-FrancoBalich/
-├── src/
-│   ├── index.js          # Servidor principal
-│   └── singup-mail.js    # Configuración de correo
-├── views/
-│   ├── css/             # Estilos
-│   ├── js/              # Scripts
-│   ├── img/             # Imágenes
-│   ├── pages/           # Páginas principales
-│   └── partials/        # Componentes reutilizables
+├── app/                  # Directorio principal de Next.js
+│   ├── page.tsx         # Página principal
+│   ├── layout.tsx       # Layout principal
+│   └── globals.css      # Estilos globales
+├── components/          # Componentes React
+├── public/             # Archivos estáticos
+├── styles/             # Estilos adicionales
 ├── package.json
 └── README.md
 ```
 
 ## 🚀 Scripts Disponibles
+- `npm run dev`: Inicia el servidor en modo desarrollo
+- `npm run build`: Construye la aplicación para producción
 - `npm start`: Inicia el servidor en modo producción
-- `npm run dev`: Inicia el servidor en modo desarrollo con nodemon
-- `npm test`: Ejecuta los tests
+- `npm run lint`: Ejecuta el linter
 
 ## 📫 Contacto y Redes Sociales
 - GitHub: [francobalich](https://github.com/francobalich)
@@ -78,7 +79,7 @@ Portafolio-FrancoBalich/
 Este proyecto está bajo la Licencia ISC.
 
 ## 🔍 Palabras Clave
-Desarrollo Full Stack, Data Engineering, IoT, Python, Laboratorio Creativo 3D, Análisis de Datos, Desarrollo Web, Node.js, Express, EJS, Creador de Contenido Tecnológico, Investigación en Informática, Soluciones Tecnológicas, Innovación, Automatización, Sistemas Inteligentes
+Desarrollo Full Stack, Data Engineering, IoT, Python, Next.js, React, TypeScript, Laboratorio Creativo 3D, Análisis de Datos, Desarrollo Web, Creador de Contenido Tecnológico, Investigación en Informática, Soluciones Tecnológicas, Innovación, Automatización, Sistemas Inteligentes
 
 ---
 Desarrollado con ❤️ por Franco Balich
